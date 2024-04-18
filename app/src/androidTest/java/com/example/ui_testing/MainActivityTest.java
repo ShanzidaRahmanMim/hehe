@@ -42,4 +42,5 @@ public class MainActivityTest {
     // Check if the text changes to green text
     onView(withId(R.id.text)).check(matches(withText("This is green text")));
 }
+
 }
